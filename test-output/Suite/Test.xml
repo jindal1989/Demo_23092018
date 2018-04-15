@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Ankush-PC" name="testmaven.DemotoMaven" tests="1" failures="0" timestamp="14 Apr 2018 05:31:47 GMT" time="0.141" errors="0">
+  <testcase name="hellomaven" time="0.063" classname="testmaven.DemotoMaven"/>
+</testsuite>
