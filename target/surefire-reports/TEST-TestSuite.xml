@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="110.82" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.032" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="MavenSeleJenkins"/>
+    <property name="JOB_NAME" value="Demo_Maven_Jenkins_22092018"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="2"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="LearningMaven"/>
     <property name="os.name" value="Windows Vista"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -24,9 +24,9 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="MavenSeleJenkins"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/MavenSeleJenkins/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="JOB_BASE_NAME" value="Demo_Maven_Jenkins_22092018"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Demo_Maven_Jenkins_22092018/11/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#11"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_102"/>
@@ -36,7 +36,7 @@
     <property name="sun.arch.data.model" value="32"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="11"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -50,13 +50,13 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="os.version" value="6.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/MavenSeleJenkins/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Demo_Maven_Jenkins_22092018/11/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Windows\TEMP"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.102-b14"/>
     <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/MavenSeleJenkins/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Demo_Maven_Jenkins_22092018/display/redirect"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_102"/>
@@ -71,21 +71,21 @@
     <property name="POM_GROUPID" value="DemoMaven"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
-    <property name="BUILD_TAG" value="jenkins-MavenSeleJenkins-2"/>
+    <property name="BUILD_TAG" value="jenkins-Demo_Maven_Jenkins_22092018-11"/>
     <property name="JENKINS_SERVER_COOKIE" value="6bc94eb3cc46210b"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_102/bin;C:\Program Files\Java\jdk1.8.0_102/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Python34;C:\Program Files\Java\jdk1.8.0_102\bin;D:\apache-maven-3.5.3\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_102/bin;C:\Program Files\Java\jdk1.8.0_102/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Python34;C:\Program Files\Java\jdk1.8.0_102\bin;D:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\apache-maven-3.5.3"/>
     <property name="java.class.path" value="C:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;D:\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;D:\apache-maven-3.5.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\apache-maven-3.5.3 C:\Program Files\Jenkins\war\WEB-INF\lib\remoting-3.17.jar C:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 50679"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_102/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Python34;C:\Program Files\Java\jdk1.8.0_102\bin;D:\apache-maven-3.5.3\bin"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\apache-maven-3.5.3 C:\Program Files\Jenkins\war\WEB-INF\lib\remoting-3.17.jar C:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 50081"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_102/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Python34;C:\Program Files\Java\jdk1.8.0_102\bin;D:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_102/bin"/>
@@ -108,17 +108,22 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="D:\apache-maven-3.5.3"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="11"/>
     <property name="BASE" value="C:\Program Files\Jenkins"/>
     <property name="PROCESSOR_REVISION" value="0f0d"/>
     <property name="windir" value="C:\Windows"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
-    <property name="WORKSPACE" value="C:\Program Files\Jenkins\workspace\MavenSeleJenkins"/>
+    <property name="WORKSPACE" value="C:\Program Files\Jenkins\workspace\Demo_Maven_Jenkins_22092018"/>
     <property name="maven3.interceptor.common" value="C:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
     <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.8"/>
   </properties>
-  <testcase name="hellomaven" classname="testmaven.DemotoMaven" time="110.82"/>
+  <testcase name="testOne" classname="com.jenkinMaven.TestClassOne" time="0.031"/>
+  <testcase name="testTwo" classname="com.jenkinMaven.TestClassTwo" time="0.001"/>
+  <testcase name="verifyTitle" classname="testmaven.DemotoMaven" time="0"/>
+  <testcase name="verifyTitleofLearnautomation" classname="testmaven.learn_demo" time="0"/>
+  <testcase name="loginFB" classname="testmaven.DemotoMaven" time="0"/>
+  <testcase name="verifyUser" classname="testmaven.DemotoMaven" time="0"/>
 </testsuite>

@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="141" started-at="2018-04-14T11:01:46Z" finished-at="2018-04-14T11:01:46Z">
+  <suite name="Suite" duration-ms="125" started-at="2018-09-23T07:50:25Z" finished-at="2018-09-23T07:50:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="141" started-at="2018-04-14T11:01:46Z" finished-at="2018-04-14T11:01:46Z">
-      <class name="testmaven.DemotoMaven">
-        <test-method status="PASS" signature="hellomaven()" name="hellomaven" duration-ms="63" started-at="2018-04-14T11:01:46Z" finished-at="2018-04-14T11:01:46Z">
+    <test name="Test" duration-ms="125" started-at="2018-09-23T07:50:25Z" finished-at="2018-09-23T07:50:25Z">
+      <class name="com.jenkinMaven.TestClassOne">
+        <test-method status="PASS" signature="testOne()" name="testOne" duration-ms="63" started-at="2018-09-23T07:50:25Z" finished-at="2018-09-23T07:50:25Z">
+        </test-method>
+      </class>
+      <class name="com.jenkinMaven.TestClassTwo">
+        <test-method status="PASS" signature="testTwo()" name="testTwo" duration-ms="0" started-at="2018-09-23T07:50:25Z" finished-at="2018-09-23T07:50:25Z">
         </test-method>
       </class>
     </test>
