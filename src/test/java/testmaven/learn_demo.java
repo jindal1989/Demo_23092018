@@ -30,5 +30,12 @@ public class learn_demo {
 		System.out.println("Learn Automation verified");
 
 	}
+	
+	@Test(priority = 1)
+	public void verifyTitleofLearnautomation1() {
+		
+		System.out.println("test 2 verified");
+
+	}
 
 }
