@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Ankush-PC" name="testmaven.DemotoMaven" tests="4" failures="0" timestamp="22 Sep 2018 11:41:30 GMT" time="335.112" errors="0">
+  <testcase name="verifyTitle" time="0.338" classname="testmaven.DemotoMaven"/>
+  <testcase name="verifyTitleofLearnautomation" time="1.855" classname="testmaven.learn_demo"/>
+  <testcase name="loginFB" time="166.276" classname="testmaven.DemotoMaven"/>
+  <testcase name="verifyUser" time="12.255" classname="testmaven.DemotoMaven"/>
+</testsuite>
